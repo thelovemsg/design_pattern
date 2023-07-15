@@ -1,4 +1,4 @@
-package com.example.design_pattern.section_04_factory;
+package com.example.design_pattern.section_04_factory.factory_method.pizza;
 
 public class ChicagoStyleCheesePizza extends Pizza {
 
@@ -10,7 +10,7 @@ public class ChicagoStyleCheesePizza extends Pizza {
 		toppings.add("Shredded Mozzarella Cheese");
 	}
  
-	void cut() {
+	public void cut() {
 		System.out.println("Cutting the pizza into square slices");
 	}
 }

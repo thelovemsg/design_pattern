@@ -1,7 +1,5 @@
 package com.example.design_pattern.section_03_decorator.beverage;
 
-import com.example.design_pattern.section_03_decorator.Beverage;
-
 public class DarkRoast extends Beverage {
 
     public DarkRoast() {

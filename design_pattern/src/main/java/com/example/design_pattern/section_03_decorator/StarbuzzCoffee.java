@@ -1,5 +1,6 @@
 package com.example.design_pattern.section_03_decorator;
 
+import com.example.design_pattern.section_03_decorator.beverage.Beverage;
 import com.example.design_pattern.section_03_decorator.beverage.DarkRoast;
 import com.example.design_pattern.section_03_decorator.beverage.Espresso;
 import com.example.design_pattern.section_03_decorator.condiment.Mocha;

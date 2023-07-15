@@ -1,4 +1,4 @@
-package com.example.design_pattern.section_03_decorator;
+package com.example.design_pattern.section_03_decorator.beverage;
 
 public abstract class Beverage {
     protected String description = "제목 없음";

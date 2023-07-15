@@ -1,4 +1,6 @@
-package com.example.design_pattern.section_04_factory;
+package com.example.design_pattern.section_04_factory.factory_method.store;
+
+import com.example.design_pattern.section_04_factory.factory_method.pizza.Pizza;
 
 public abstract class PizzaStore {
 

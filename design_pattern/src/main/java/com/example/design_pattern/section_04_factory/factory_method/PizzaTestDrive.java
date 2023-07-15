@@ -1,4 +1,9 @@
-package com.example.design_pattern.section_04_factory;
+package com.example.design_pattern.section_04_factory.factory_method;
+
+import com.example.design_pattern.section_04_factory.factory_method.pizza.Pizza;
+import com.example.design_pattern.section_04_factory.factory_method.store.ChicagoPizzaStore;
+import com.example.design_pattern.section_04_factory.factory_method.store.NYPizzaStore;
+import com.example.design_pattern.section_04_factory.factory_method.store.PizzaStore;
 
 public class PizzaTestDrive {
     public static void main(String[] args) {

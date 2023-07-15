@@ -1,7 +1,5 @@
 package com.example.design_pattern.section_03_decorator.beverage;
 
-import com.example.design_pattern.section_03_decorator.Beverage;
-
 public class Decaf extends Beverage {
 
     public Decaf() {

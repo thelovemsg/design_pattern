@@ -1,6 +1,6 @@
 package com.example.design_pattern.section_03_decorator.condiment;
 
-import com.example.design_pattern.section_03_decorator.Beverage;
+import com.example.design_pattern.section_03_decorator.beverage.Beverage;
 import com.example.design_pattern.section_03_decorator.CondimentDecorator;
 
 public class Mocha extends CondimentDecorator {
@@ -18,4 +18,5 @@ public class Mocha extends CondimentDecorator {
     public String getDescription() {
         return beverage.getDescription() + ", 모카";
     }
+
 }
