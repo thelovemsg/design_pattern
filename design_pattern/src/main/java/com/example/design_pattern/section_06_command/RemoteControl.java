@@ -1,0 +1,46 @@
+package com.example.design_pattern.section_06_command;
+
+import com.example.design_pattern.section_06_command.fan.NoCommand;
+
+public class RemoteControl {
+    Command[] onCommands;
+    Command[] offCommands;
+
+    public RemoteControl() {
+        this.onCommands = new Command[7];
+        this.offCommands = new Command[7];
+
+        Command noCommand = new NoCommand();
+
+        for (int i=0; i<7; i++) {
+            onCommands[i] = noCommand;
+            offCommands[i] = noCommand;
+        }
+    }
+    
+    public void setCommand(int slot, Command onCommand, Command offCommand) {
+        onCommands[slot] = onCommand;
+        offCommands[slot] = offCommand;
+    }
+
+    public void onButtonWasPushed(int slot) {
+        if(onCommands[slot] != null)
+            onCommands[slot].execute();
+    }
+
+    public void offButtonWasPushed(int slot) {
+        if(offCommands[slot] != null)
+            offCommands[slot].execute();
+    }
+
+    public String toString() {
+        StringBuffer stringBuff = new StringBuffer();
+        stringBuff.append("\n------ Remote Control -------\n");
+        for (int i = 0; i < onCommands.length; i++) {
+            stringBuff.append("[slot " + i + "] " + onCommands[i].getClass().getName()
+                    + "    " + offCommands[i].getClass().getName() + "\n");
+        }
+        return stringBuff.toString();
+    }
+
+}
