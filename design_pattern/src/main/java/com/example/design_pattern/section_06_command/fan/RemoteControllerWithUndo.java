@@ -38,6 +38,4 @@ public class RemoteControllerWithUndo {
         undoCommand.undo();
     }
 
-
-
 }
