@@ -10,6 +10,7 @@ public class GumballMachine {
 
     State state;
     int count = 0;
+    String location;
 
     public GumballMachine(int numberGumballs) {
         soldOutState = new SoldOutState(this);

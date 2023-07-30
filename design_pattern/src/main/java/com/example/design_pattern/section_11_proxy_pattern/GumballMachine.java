@@ -104,4 +104,5 @@ public class GumballMachine {
         result.append("Machine is " + state + "\n");
         return result.toString();
     }
+
 }

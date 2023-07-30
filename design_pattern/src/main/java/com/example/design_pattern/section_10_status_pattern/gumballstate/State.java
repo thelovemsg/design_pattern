@@ -1,6 +1,8 @@
 package com.example.design_pattern.section_10_status_pattern.gumballstate;
 
-public interface State {
+import java.io.Serializable;
+
+public interface State extends Serializable {
     void insertQuarter();
     void ejectQuarter();
     void turnCrank();
