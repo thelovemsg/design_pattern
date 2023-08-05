@@ -1,7 +1,4 @@
-package com.example.design_pattern.section_02_observer.main;
-
-import com.example.design_pattern.section_02_observer.behavior.Observer;
-import com.example.design_pattern.section_02_observer.behavior.Subject;
+package com.example.design_pattern.section_02_observer.behavior;
 
 import java.util.ArrayList;
 import java.util.List;

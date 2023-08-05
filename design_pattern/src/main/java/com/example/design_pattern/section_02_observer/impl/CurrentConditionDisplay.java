@@ -1,6 +1,6 @@
 package com.example.design_pattern.section_02_observer.impl;
 
-import com.example.design_pattern.section_02_observer.main.WeatherData;
+import com.example.design_pattern.section_02_observer.behavior.WeatherData;
 import com.example.design_pattern.section_02_observer.behavior.DisplayElement;
 import com.example.design_pattern.section_02_observer.behavior.Observer;
 

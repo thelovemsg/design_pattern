@@ -1,5 +1,6 @@
 package com.example.design_pattern.section_02_observer.main;
 
+import com.example.design_pattern.section_02_observer.behavior.WeatherData;
 import com.example.design_pattern.section_02_observer.impl.CurrentConditionDisplay;
 import com.example.design_pattern.section_02_observer.impl.StatisticsDisplay;
 
