@@ -24,4 +24,9 @@ public class DuckFactory implements AbstractDuckFactory{
     public Quackable createRubberDuck() {
         return new RubberDuck();
     }
+
+    @Override
+    public Quackable createGooseDuck() {
+        return null;
+    }
 }

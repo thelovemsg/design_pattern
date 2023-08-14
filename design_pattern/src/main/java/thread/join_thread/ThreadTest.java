@@ -47,7 +47,7 @@ public class ThreadTest {
         }
 
         for (Thread thread : threads) {
-            thread.join();
+            thread.join(2000);
         }
 
         for (int i = 0; i < inputNumbers.size(); i++) {
