@@ -152,4 +152,25 @@ public class Main {
             }
         }
     }
+
+    public class customComparator implements Comparator<TestDTO> {
+
+        @Override
+        public int compare(TestDTO t1, TestDTO t2) {
+            int compareTot = Integer.compare(t1.getTotal(), t2.getTotal());
+            if (compareTot != 0)
+                return compareTot;
+
+            int compareV1 = Integer.compare(t1.getV1(), t2.getV1());
+            if (compareV1 != 0)
+                return compareV1;
+
+            int compareV2 = Integer.compare(t1.getV2(), t2.getV2());
+            if (compareV2 != 0)
+                return compareV1;
+
+            return Integer.compare(t1.getV3(), t2.getV3());
+
+        }
+    }
 }
