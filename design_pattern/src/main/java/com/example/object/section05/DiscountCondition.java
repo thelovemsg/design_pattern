@@ -14,6 +14,7 @@ public class DiscountCondition {
     private LocalTime startTime;
     private LocalTime endTime;
 
+
     boolean isSatisfiedBy(Screening screening) {
         if (type == DiscountConditionType.PERIOD) {
             return isSatisfiedByPeriod(screening);
